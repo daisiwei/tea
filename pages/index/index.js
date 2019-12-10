@@ -1,7 +1,7 @@
 Page({
 
   data: {
-    swiperImg: ['/images/banner1.png', '/images/banner3.jpg', '/images/banner3.png'],
+    swiperImg: ['/assets/images/banner1.png', '/assets/images/banner3.jpg', '/assets/images/banner3.png'],
     indicatorDots: true,
     autoplay: true,
     interval: 5000,
