@@ -1,13 +1,43 @@
 
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <view>
+        品茗慢生活
+    </view>
+
+    <view>
+    
+    </view>
+    <view class="nothing">
+      <icon class=""></icon>
+      <text>您的购物车有点寂寞</text>
+      <button>去逛逛</button>
   </view>
 </view>
+
+<view>
+  <view>
+    <text>猜你喜欢</text> 
+    <icon class=""></icon><text>换一批</text>
+  </view>
+    <view class="guess_your_like">
+
+      <view class="goods">
+        <cover-image src="/assets/images/banner1.png"></cover-image>
+        <view>福鼎老白茶</view>
+        <view><text>￥79</text><icon class=""></icon></view>
+      </view>
+
+     <view class="goods">
+        <cover-image src="/assets/images/banner1.png"></cover-image>
+        <view>福鼎老白茶</view>
+        <view><text>￥79</text><icon class=""></icon></view>
+      </view>
+
+     <view class="goods">
+        <cover-image src="/assets/images/banner1.png"></cover-image>
+        <view>福鼎老白茶</view>
+        <view><text>￥79</text><icon class=""></icon></view>
+      </view>
+</view>
+</view>
+

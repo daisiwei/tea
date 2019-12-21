@@ -1,3 +1,5 @@
+
+const WXAPI = require('apifm-wxapi');
 Page({
 
   data: {
@@ -6,8 +8,16 @@ Page({
     autoplay: true,
     interval: 5000,
   },
+  onLoad: function (e) {   
 
-
+    WXAPI.banners().then(res => {
+      if (res.code == 0) {
+        this.setData({
+          banners: res.data
+        })
+      }
+    })
+  },
   onShareAppMessage() {
     return {
       title: 'swiper',

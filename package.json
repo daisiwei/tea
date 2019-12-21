@@ -1,0 +1,25 @@
+{
+  "name": "tea",
+  "version": "1.0.0",
+  "description": "my tea mall",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisiwei/tea.git"
+  },
+  "keywords": [
+    "@@@aaa001"
+  ],
+  "author": "daisiwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daisiwei/tea/issues"
+  },
+  "homepage": "https://github.com/daisiwei/tea#readme",
+  "dependencies": {
+    "apifm-wxapi": "^2.4.0"
+  }
+}

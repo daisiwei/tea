@@ -1,5 +1,7 @@
 {
-  "usingComponents": {
-   
+    "window": {
+      "navigationStyle": "default",
+      "navigationBarTitleText": "购物车",
+      "navigationBarTextStyle": "white"
     }
 }

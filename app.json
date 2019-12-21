@@ -1,15 +1,15 @@
 {
   "pages": [
+    "pages/Car/index",
     "pages/UserCenter/index",
     "pages/Index/index",
     "pages/Classify/index",
-    "pages/Car/index",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light", 
-    "navigationBarBackgroundColor": "#fff", 
-    "navigationStyle": "custom",
+    "navigationBarBackgroundColor": "#000", 
+    "navigationStyle": "default",
     "enablePullDownRefresh": false,
     "onReachBottomDistance": 50
   },

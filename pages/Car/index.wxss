@@ -1,22 +1,16 @@
 
 /**index.wxss**/
-.userinfo {
+.guess_your_like{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.guess_your_like .goods{
+  flex: 1;
 }
 
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.nothing{
+  display: none;
 }

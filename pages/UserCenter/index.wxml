@@ -4,6 +4,17 @@
         <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
+
+    <view class="userinfo_container">
+        <view class="coupon">
+          <view>0张</view>
+          <view>优惠券</view>
+        </view>
+        <view class="integral">
+          <view>0</view>
+          <view>积分</view>
+        </view>
+    </view>
   </view>
 
   <view class="container">
@@ -28,6 +39,17 @@
               <text>售后</text>
             </view>
         </view>
+     </view>
+    <view class="order_function">
+        <view  class="height44">
+          <text>问题反馈</text>
+        </view>
+        <view  class="height44">
+          <text>关于我们</text>
+        </view>
     </view>
 
-  </view>
+    <view class="vip_wrapper">
+      <cover-image src="/assets/images/banner1.png"></cover-image>
+    </view>
+    </view>
